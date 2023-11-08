@@ -1,0 +1,6 @@
+1. Create an empty array to store the distinct elements.
+2. Iterate through each element in the first set.
+3. Check if the element is already present in the distinct elements array. If not, add it.
+4. Repeat the same process for the second set.
+5. Finally, calculate the sum of all elements in the distinct elements array.
+print result
