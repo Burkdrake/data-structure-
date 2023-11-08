@@ -1,6 +1,25 @@
+problem 1 :Solution
 1. Create an empty array to store the distinct elements.
 2. Iterate through each element in the first set.
 3. Check if the element is already present in the distinct elements array. If not, add it.
 4. Repeat the same process for the second set.
 5. Finally, calculate the sum of all elements in the distinct elements array.
 print result
+
+problem 2: Solution
+Algorithm: Check Orthogonality using Dot Product
+
+1. Define a procedure called dot_product that takes two vectors, v1 and v2, as input.
+2. Inside the dot_product procedure, calculate the dot product of v1 and v2 using the formula: ps = v1[0]*v2[0] + v1[1]*v2[1] + ... + v1[n-1]*v2[n-1], where n is the length of the vectors.
+3. Return the dot product ps.
+
+4. Define a function called is_orthogonal that takes two vectors, v1 and v2, as input.
+5. Inside the is_orthogonal function, call the dot_product procedure with v1 and v2 as arguments and store the result in a variable called product.
+6. If the product is equal to 0, return true to indicate that the vectors are orthogonal.
+7. Otherwise, return false to indicate that the vectors are not orthogonal.
+
+8. Define a function called check_orthogonality that takes a list of n pairs of vectors as input.
+9. Iterate through each pair of vectors in the list.
+10. For each pair, call the is_orthogonal function with the two vectors as arguments.
+11. If the is_orthogonal function returns true, print "Orthogonal" for that pair of vectors.
+12. If the is_orthogonal function returns false, print "Not Orthogonal" for that pair of vectors.
